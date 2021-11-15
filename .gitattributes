@@ -1,8 +1,6 @@
 # Common settings that generally should always be used with your language specific settings
 
 
-*.html linguist-vendored=true
-*.ipynb linguist-vendored=true
 
 # Linguist::FileBlob.new("./*.html").vendored? # => true
 # Auto detect text files and perform LF normalization
