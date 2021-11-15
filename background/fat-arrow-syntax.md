@@ -1,2 +1,1 @@
 # Fat Arrow Syntax
-

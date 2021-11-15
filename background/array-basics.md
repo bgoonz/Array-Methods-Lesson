@@ -8,4 +8,3 @@ coverY: 0
 # Array Basics
 
 ![](../.gitbook/assets/image.png)
-

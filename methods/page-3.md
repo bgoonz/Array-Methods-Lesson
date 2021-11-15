@@ -4,4 +4,3 @@ coverY: 0
 ---
 
 # Array.reduce()
-
