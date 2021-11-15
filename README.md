@@ -6,10 +6,6 @@ description: 'Github Repo: https://github.com/bgoonz/Array-Methods-Lesson'
 
 # Home
 
-Self Link:
-
-## Website:
-
 
 
 {% embed url="https://bryan-guner.gitbook.io/array-methods-lesson" %}
@@ -29,8 +25,6 @@ Corresponding Github Repository
 <mark style="color:orange;">reduce</mark>(\[<mark style="background-color:red;">🍿, 🍳</mark>], <mark style="background-color:blue;">eat</mark>) => <mark style="background-color:green;">💩</mark>
 
 ![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-1.png>) ![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-2.png>) ![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-3.png>) ![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-4.png>)
-
-
 
 ## Table of contents
 
@@ -70,3 +64,19 @@ Corresponding Github Repository
 ### 👽 Miscellaneous
 
 * [Array Methods Explained As Emojis](https://bryan-guner.gitbook.io/array-methods-lesson/miscellaneous/array-methods-explained-as-emojis)
+
+```
+// Mutating
+push()      // Insert an element at the end
+pop()       // Remove an element from the end
+unshift()   // Inserts an element in the beginning
+shift()     // Remove first element
+// Iterating
+forEach()   // Iterates an array
+filter()    // Iterates an array and result is filtered array
+map()       // Iterates an array and result is new array
+reduce()    // "Reduces" the array into single value (accumulator)
+// Others
+slice()     // Returns desired elements in a new array
+concat()    // Append one or more arrays with given array
+```
