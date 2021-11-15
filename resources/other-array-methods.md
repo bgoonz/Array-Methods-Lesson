@@ -1,8 +1,8 @@
-# Other Array Methods
+# 🤓 Other Array Methods
 
 ![](<../.gitbook/assets/image (1) (1).png>)
 
-## **Anki flashcards**
+****
 
 **1. What does Array#splice accept as arguments?**
 
