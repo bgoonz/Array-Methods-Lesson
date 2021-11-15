@@ -1,8 +1,12 @@
-# Does It Mutate
+---
+coverY: 0
+---
+
+# 💱 Does It Mutate¿
 
 ## .concat​
 
-no mutation
+<mark style="color:orange;"><mark style="color:blue;">no</mark></mark> <mark style="color:orange;">mutation</mark>
 
 #### Description
 
@@ -26,7 +30,7 @@ console.log(array1.concat(array2));
 
 ## .copyWithin()
 
-mutates
+<mark style="color:red;">mutates</mark>
 
 #### Description
 
@@ -56,7 +60,7 @@ console.log(array1.copyWithin(1, 3));
 
 ## .entries()
 
-no mutation
+<mark style="color:orange;">no mutation</mark>
 
 #### Description
 
@@ -84,7 +88,7 @@ console.log(iterator1.next().value);
 
 ## .every
 
-no mutation
+<mark style="color:orange;">no mutation</mark>
 
 #### Description
 
@@ -111,7 +115,7 @@ console.log(array1.every(isBelowThreshold));
 
 ## .fill()
 
-mutates
+<mark style="color:red;">mutates</mark>
 
 #### Description
 
@@ -144,7 +148,7 @@ console.log(array1.fill(6));
 
 ## .filter
 
-no mutation
+<mark style="color:orange;">no mutation</mark>
 
 #### Description
 
@@ -169,7 +173,7 @@ console.log(result);
 
 ## .find()
 
-no mutation
+<mark style="color:orange;">no mutation</mark>
 
 #### Description
 
@@ -816,4 +820,4 @@ for (const value of iterator) {
 }
 ```
 
-\
+\\

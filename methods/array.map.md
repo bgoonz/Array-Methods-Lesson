@@ -3,7 +3,7 @@ cover: ../.gitbook/assets/map.png
 coverY: 0
 ---
 
-# Array.map()
+# 🗺 Array.map()
 
 ### `Array.map()` <a href="d50b" id="d50b"></a>
 
