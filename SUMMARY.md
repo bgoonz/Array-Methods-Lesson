@@ -5,22 +5,23 @@
 ## 👨💻 Methods
 
 * [Array.forEach()](methods/page-1.md)
-* [Array.filter()](methods/array.filter.md)
+* [Array.filter()](methods/page-2.md)
 * [Array.reduce()](methods/page-3.md)
 * [Array.map()](methods/array.map.md)
 
 ## Background
 
+* [Mutability](background/mutability.md)
 * [Array Basics](background/array-basics.md)
 * [🔙 Background](background/background.md)
 * [Callback Functions](background/callback-functions.md)
 * [Higher Order Functions](background/higher-order-functions.md)
-* [Difference Between Functions & Methods...](background/difference-between-functions-and-methods....md)
-* [Fat Arrow Syntax](background/fat-arrow-syntax.md)
+* [🧘 Difference Between Functions & Methods...](background/difference-between-functions-and-methods....md)
+* [➡ Fat Arrow Syntax](background/fat-arrow-syntax.md)
 
 ## 📖 Resources
 
-* [Does It Mutate](resources/does-it-mutate.md)
+* [Does It Mutate¿](resources/does-it-mutate.md)
 * [Cheat Sheet](resources/cheat-sheet.md)
 * [Other Array Methods](resources/other-array-methods.md)
 

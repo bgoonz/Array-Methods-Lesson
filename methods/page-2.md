@@ -1,8 +1,3 @@
----
-cover: ../.gitbook/assets/map.png
-coverY: 0
----
-
-# Array.map()
+# Array.filter()
 
 {% embed url="https://replit.com/@bgoonz/array-methods#index.js" %}

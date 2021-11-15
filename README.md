@@ -16,6 +16,8 @@ Public Web Address
 Corresponding Github Repository
 {% endembed %}
 
+{% embed url="https://replit.com/@bgoonz/array-methods#index.js" %}
+
 <mark style="color:orange;">map</mark>(\[<mark style="background-color:red;">🌽, 🐮, 🐔</mark>], <mark style="background-color:blue;">cook</mark>) => <mark style="background-color:green;">\[🍿, 🍔, 🍳]</mark>
 
 <mark style="color:orange;">filter</mark>(\[<mark style="background-color:red;">🍿, 🍔, 🍳</mark>], <mark style="background-color:blue;">isVegetarian</mark>) => <mark style="background-color:green;">\[🍿, 🍳]</mark>
