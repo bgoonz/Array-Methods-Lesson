@@ -4,13 +4,18 @@
 
 ## 👨💻 Methods
 
-* [Array.forEach()](methods/array.foreach.md)
-* [Array.map()](methods/array.map.md)
-* [Array.reduce()](methods/array.reduce.md)
+* [Array.forEach()](methods/page-1.md)
+* [Array.map()](methods/page-2.md)
+* [Array.reduce()](methods/page-3.md)
 
 ## Background
 
+* [Array Basics](background/array-basics.md)
 * [🔙 Background](background/background.md)
+* [Callback Functions](background/callback-functions.md)
+* [Higher Order Functions](background/higher-order-functions.md)
+* [Difference Between Functions & Methods...](background/difference-between-functions-and-methods....md)
+* [Fat Arrow Syntax](background/fat-arrow-syntax.md)
 
 ## 📖 Resources
 

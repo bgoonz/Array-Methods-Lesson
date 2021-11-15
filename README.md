@@ -1,6 +1,7 @@
 ---
 cover: .gitbook/assets/reduce.png
 coverY: 0
+description: 'Github Repo: https://github.com/bgoonz/Array-Methods-Lesson'
 ---
 
 # Home
