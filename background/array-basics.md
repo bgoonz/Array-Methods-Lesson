@@ -5,11 +5,13 @@ cover: ../.gitbook/assets/ApplicationFrameHost_ZXTKUFps70.png
 coverY: 0
 ---
 
-# 🍼 Array Basics
+# Array Basics
 
 ![](../.gitbook/assets/image.png)
 
 {% embed url="https://replit.com/@bgoonz/array-methods#index.js" %}
+
+
 
 #### Arrays
 
@@ -54,7 +56,7 @@ You can see in the above that between the brackets there are three required attr
 
 * L<mark style="color:blue;">et i = 0; – This creates a new variable that we increment on every loop. “i” represents the Index and we use this variable to access the emoji in the array.</mark>
 * <mark style="color:purple;">i < emojis.length; – This is a conditional statement. This code tells the engine to keep looping as long as “i” is less than the Array size.</mark>
-* <mark style="color:orange;">i++; – This last attribute is shorthand to increment i. It is the same as writing i = i+1. It will add 1 to “i” on every loop.</mark>
+* <mark style="color:orange;">i++;  – This last attribute is shorthand to increment i. It is the same as writing i = i+1. It will add 1 to “i” on every loop.</mark>
 
 In our example, the above loop will loop through each emoji and then print the emoji to the console:
 
@@ -70,7 +72,7 @@ Sometimes you need to loop until you find an element in the Array. To do this we
 
 #### Break
 
-Break will stop the For loop from running. This is useful when you are trying to find a value in a large Array. For example, say that we were not sure where the skull was in our Array and we wanted to loop until we found it.
+Break will stop the For loop from running. This is useful when you are trying to find a value in a large Array. For example, say that we were not sure where the skull was in our Array and we wanted to loop until we found it.&#x20;
 
 Well, we could write code like this:
 
@@ -84,7 +86,7 @@ What if we wanted to perform an operation on all the values in the Array except 
 
 #### Continue
 
-Continue is like a Break statement but instead of stopping the loop it can skip or “jump over” an item in the array.
+Continue is like a Break statement but instead of stopping the loop it can skip or “jump over” an item in the array.&#x20;
 
 This time we are going to write the code so that when we find a skull, we skip it and we won’t print it to the console:
 
@@ -114,13 +116,13 @@ Now when you run the code this is the output:
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog10.png)
 
-The \`foo\` function is part of the loop! For this reason, you should \*\*never \*\*use For..in in your code.
+The \`foo\` function is part of the loop! For this reason, you should **never **use For..in in your code.
 
 We have discussed the basic For loops—next, we will look at While loops.
 
 ### While Loop
 
-A While Loop will continue to loop while a condition is true.
+A While Loop will continue to loop while a condition is true.&#x20;
 
 For example, the below code will loop while “i” is less than the Array size:
 
@@ -133,7 +135,7 @@ We are doing the same thing as we were in the For loop:
 * console.log(emojis\[i]) – printing each emoji String to the console.
 * i++ – Incrementing the index by 1 on each loop.
 
-This code will print all the emojis.
+This code will print all the emojis.&#x20;
 
 Why would you use a While loop over a For loop?
 
@@ -141,7 +143,7 @@ Although they are interchangeable, you will not see While loops very often in Ja
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog12.png)
 
-For each loop, we check the condition (noFox) and if it is ‘true,’ then the loop continues. As soon as ‘noFox’ is set to false the loop will stop. This is like the break statement For loop we used above.
+For each loop, we check the condition (noFox) and if it is ‘true,’ then the loop continues. As soon as ‘noFox’ is set to false the loop will stop. This is like the break statement For loop we used above.&#x20;
 
 What if you wanted to check the conditional after the loop? Well, in that case, you need a Do/While loop.
 
@@ -182,16 +184,16 @@ forEach is a function added to the Array type. The function takes a callback fun
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog14.png)
 
-For every value inside the Array, it will run the callback block you pass inside the brackets. This is a nice way to do For loops in ES5.
+For every value inside the Array, it will run the callback block you pass inside the brackets. This is a nice way to do For loops in ES5.&#x20;
 
 If forEach is available, then this is the recommended way to do a loop.
 
 #### Map
 
-You can loop using a Map function the same way as forEach by passing a callback. The map function then calls this callback for every item in the Array.
+You can loop using a Map function the same way as forEach by passing a callback. The map function then calls this callback for every item in the Array.&#x20;
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog15.png)
 
 The difference with Map is that it returns an Array. This function can convert the contents of one Array to another. For example, if we wanted to create a new Array with all the emojis as skulls, we could run this code:
 
-\\
+\
