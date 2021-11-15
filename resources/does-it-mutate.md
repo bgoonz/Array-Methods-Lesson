@@ -1,4 +1,17 @@
-# Does It Mutate
+# 💱 Does It Mutate¿
+
+**What does the term "mutability" mean in programming?**
+
+* "Mutability" refers to an object's ability to undergo change. Mutable objects can be modified, while immutable objects cannot be changed after they are created.
+
+***
+
+** Identify which of the following JavaScript data types are mutable: number, string, boolean, array**
+
+* Arrays are mutable.
+* Numbers, strings, and booleans are all immutable.
+
+***
 
 ## .concat​
 
@@ -816,4 +829,4 @@ for (const value of iterator) {
 }
 ```
 
-\
+\\
