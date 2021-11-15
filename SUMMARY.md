@@ -1,8 +1,7 @@
 # Table of contents
 
-* Home
-
-## Methods
+* [README](README.md)
+* [Home](home.md)
 
 ## 👨💻 Methods
 
@@ -33,6 +32,6 @@
 * [Cheat Sheet](resources/cheat-sheet.md)
 * [Other Array Methods](resources/other-array-methods.md)
 
-## 👽 Miscellaneous&#x20;
+## 👽 Miscellaneous
 
 * [Array Methods Explained As Emojis](miscellaneous/array-methods-explained-as-emojis.md)

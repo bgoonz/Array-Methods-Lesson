@@ -1,6 +1,6 @@
 # Callback Functions
 
-![](<../.gitbook/assets/image (1).png>)
+![caption](<../.gitbook/assets/image (1).png>)
 
 **Callbacks and higher-order functions** are some of the most misunderstood concepts in JavaScript. In this post, we will become familiar with them to write pro-level code as JavaScript engineers.
 
