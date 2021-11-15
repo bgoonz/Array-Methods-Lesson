@@ -18,3 +18,13 @@ console.log(feededMonkeys);// ["🐒🍌", "🦍🍌", "🦧🍌"]
 \_Documentation on \_[_MDN_](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
 
 {% embed url="https://replit.com/@bgoonz/array-methods#index.js" %}
+
+### map() <a href="230b" id="230b"></a>
+
+```
+const array = [1, 2, 3, 4]const mapArray = array.map(element => element * 2)// array = [1, 2, 3, 4]// mapArray = [2, 4, 6, 8]
+```
+
+**`map`** method will create a new array of elements where each element is a value returned from the function provided. The example above shows the function provided doubling each element. Hence, `mapArray` is `[2, 4, 6, 8]`.
+
+`Note`: just like filter method, map will not mutate the original array because it will create a new array.

@@ -15,7 +15,7 @@
 
 ## Background
 
-* [Mutability](background/mutability.md)
+* [😶 Mutability](background/mutability.md)
 * [Array Basics](background/array-basics.md)
 * [🔙 Background](background/background.md)
 * [Callback Functions](background/callback-functions.md)
@@ -25,9 +25,9 @@
 
 ## 📖 Resources
 
-* [Array Methods Explained In Emojis](resources/array-methods-explained-in-emojis.md)
 * [Does It Mutate¿](resources/does-it-mutate.md)
-* [Cheat Sheet](resources/cheat-sheet.md)
+* [Cheat Sheet](resources/cheat-sheet/README.md)
+  * [Examples](resources/cheat-sheet/examples.md)
 * [Other Array Methods](resources/other-array-methods.md)
 
 ## 👽 Miscellaneous

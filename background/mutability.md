@@ -1,4 +1,4 @@
-# Mutability
+# 😶 Mutability
 
 ## Mutability And Reference VS Privative Types in JavaScript
 
@@ -77,8 +77,6 @@ To dereference attributes from an object, use `let {}` syntax.
 #### Primitive Data Types in Depth
 
 ![](https://cdn-images-1.medium.com/max/2560/1\*mRr-4QeqbjcMUTtQQNOlEw.png)
-
-
 
 ### What is a Reference? <a href="what-is-a-reference" id="what-is-a-reference"></a>
 
