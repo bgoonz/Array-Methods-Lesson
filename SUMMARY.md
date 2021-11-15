@@ -1,14 +1,14 @@
 # Table of contents
 
-* [Home](README.md)
+* Home
 
 ## Methods
 
 ## 👨💻 Methods
 
-* [Page 1](methods-1/page-1.md)
-* [Array.forEach()](methods-1/array.foreach.md)
-* [Array.filter()](methods-1/array.filter.md)
+* [Page 1](methods/page-1.md)
+* [Array.forEach()](methods/array.foreach.md)
+* [Array.filter()](methods/array.filter.md)
 
 ## Aux Information
 
