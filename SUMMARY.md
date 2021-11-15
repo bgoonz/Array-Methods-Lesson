@@ -4,9 +4,9 @@
 
 ## 👨💻 Methods
 
-* [Page 1](methods/page-1.md)
-* [Page 2](methods/page-2.md)
-* [Page 3](methods/page-3.md)
+* [Array.forEach()](methods/array.foreach.md)
+* [Array.map()](methods/array.map.md)
+* [Array.reduce()](methods/array.reduce.md)
 
 ## Background
 
@@ -14,6 +14,7 @@
 
 ## 📖 Resources
 
+* [Does It Mutate](resources/does-it-mutate.md)
 * [Cheat Sheet](resources/cheat-sheet.md)
 * [Other Array Methods](resources/other-array-methods.md)
 
