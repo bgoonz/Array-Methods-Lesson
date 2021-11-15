@@ -1,10 +1,20 @@
 ---
-cover: .gitbook/assets/reduce.png
+cover: .gitbook/assets/reduce (1).png
 coverY: 0
 description: 'Github Repo: https://github.com/bgoonz/Array-Methods-Lesson'
 ---
 
 # Home
+
+## Website:
+
+{% embed url="https://bryan-guner.gitbook.io/array-methods-lesson" %}
+Public Web Address
+{% endembed %}
+
+{% embed url="https://github.com/bgoonz/Array-Methods-Lesson" %}
+Corresponding Github Repository
+{% endembed %}
 
 <mark style="color:orange;">map</mark>(\[<mark style="background-color:red;">🌽, 🐮, 🐔</mark>], <mark style="background-color:blue;">cook</mark>) => <mark style="background-color:green;">\[🍿, 🍔, 🍳]</mark>
 

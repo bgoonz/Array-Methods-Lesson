@@ -5,8 +5,9 @@
 ## 👨💻 Methods
 
 * [Array.forEach()](methods/page-1.md)
-* [Array.map()](methods/page-2.md)
+* [Array.filter()](methods/array.filter.md)
 * [Array.reduce()](methods/page-3.md)
+* [Array.map()](methods/array.map.md)
 
 ## Background
 
