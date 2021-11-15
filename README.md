@@ -1,7 +1,7 @@
 ---
 cover: .gitbook/assets/reduce (1).png
 coverY: 0
-description: "Github Repo: https://github.com/bgoonz/Array-Methods-Lesson"
+description: 'Github Repo: https://github.com/bgoonz/Array-Methods-Lesson'
 ---
 
 # Home
@@ -24,4 +24,4 @@ Corresponding Github Repository
 
 <mark style="color:orange;">reduce</mark>(\[<mark style="background-color:red;">🍿, 🍳</mark>], <mark style="background-color:blue;">eat</mark>) => <mark style="background-color:green;">💩</mark>
 
-![](<.gitbook/assets/Array Methods_Instructor Position Assessment-1.png>) ![](<.gitbook/assets/Array Methods_Instructor Position Assessment-2.png>) ![](<.gitbook/assets/Array Methods_Instructor Position Assessment-3.png>) ![](<.gitbook/assets/Array Methods_Instructor Position Assessment-4.png>)
+![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-1.png>) ![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-2.png>) ![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-3.png>) ![](<.gitbook/assets/Array Methods\_Instructor Position Assessment-4.png>)
