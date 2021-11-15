@@ -5,15 +5,14 @@
 
 ## 👨💻 Methods
 
-* [Page 1](methods/page-1.md)
 * [Array.forEach()](methods/array.foreach.md)
 * [Array.filter()](methods/array.filter.md)
+* [Array.reduce()](methods/array.reduce.md)
+* [Array.map()](methods/array.map.md)
 
 ## Aux Information
 
 * [Array Methods Explained As Emojis](aux-information/array-methods-explained-as-emojis.md)
-* [Array.reduce()](aux-information/array.reduce.md)
-* [Array.map()](aux-information/array.map.md)
 
 ## Background
 
