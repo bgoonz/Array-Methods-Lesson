@@ -8,6 +8,7 @@
 * [🚮 Array.filter()](methods/array.filter.md)
 * [💩 Array.reduce()](methods/array.reduce.md)
 * [🗺 Array.map()](methods/array.map.md)
+* [Native Implementation](methods/native-implementation.md)
 
 ## Background
 
