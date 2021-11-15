@@ -6,7 +6,11 @@ description: 'Github Repo: https://github.com/bgoonz/Array-Methods-Lesson'
 
 # Home
 
+Self Link:
+
 ## Website:
+
+
 
 {% embed url="https://bryan-guner.gitbook.io/array-methods-lesson" %}
 Public Web Address
