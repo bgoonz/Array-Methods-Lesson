@@ -1,7 +1,6 @@
 # Table of contents
 
-* [README](README.md)
-* [Home](home.md)
+* [Home](README.md)
 
 ## 👨💻 Methods
 
