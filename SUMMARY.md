@@ -3,6 +3,7 @@
 * [Home](README.md)
   * [General Questions](readme/general-questions.md)
   * [Lesson Plan](readme/lesson-plan.md)
+  * [Advice](readme/advice.md)
 
 ## 👨💻 Methods
 
