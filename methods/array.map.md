@@ -11,11 +11,11 @@ Calls a function on each array element and returns the result as new array. Or f
 
 ```javascript
 const hungryMonkeys = ["🐒", "🦍", "🦧"];
-const feededMonkeys = hungryMonkeys.map(m => m + "🍌");
-console.log(feededMonkeys);// ["🐒🍌", "🦍🍌", "🦧🍌"]
+const feededMonkeys = hungryMonkeys.map((m) => m + "🍌");
+console.log(feededMonkeys); // ["🐒🍌", "🦍🍌", "🦧🍌"]
 ```
 
-\_Documentation on \_[_MDN_](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
+\_Documentation on \_[_MDN_](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 {% embed url="https://replit.com/@bgoonz/array-methods#index.js" %}
 

@@ -10,10 +10,6 @@ const array = [1, 2, 3, 4]array.forEach((elemnt, index) => {   console.log(`Elem
 
 \*\*`forEach` \*\*method will call the function provided once for each element in the array preserving the order. This function provided can take in 3 different arguments: `element`, `index`, `array`. Be sure that the order in which you pass these parameters follow the order.
 
-
-
-
-
 The [`for` loop](https://alligator.io/js/for-loops/) is probably one of the first looping mechanisms you learned about when diving into JavaScript.
 
 ```

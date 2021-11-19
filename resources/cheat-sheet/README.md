@@ -7,8 +7,6 @@ coverY: 135.1132075471698
 
 ![](../../.gitbook/assets/cheatsheet.png)
 
-
-
 ## Cheat sheet: JavaScript Array methods
 
 Deriving a new Array from an existing Array:
@@ -67,4 +65,3 @@ arr=['■','●','▲']; arr.pop();        arr ⟼ ['■','●']
 arr=['■','●'];     arr.unshift('▲'); arr ⟼ ['▲','■','●']
 arr=['▲','■','●']; arr.shift();      arr ⟼ ['■','●']
 ```
-

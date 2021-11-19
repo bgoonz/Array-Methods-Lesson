@@ -28,7 +28,7 @@ function sumArray(arr) {
 }
 ```
 
-***
+---
 
 ### **Avg Val**
 
@@ -57,7 +57,7 @@ function avgVal(arr) {
 }
 ```
 
-***
+---
 
 ### **My Index Of Recall**
 
@@ -76,7 +76,7 @@ function myIndexOf(arr, target) {
 }
 ```
 
-***
+---
 
 ### **Tripler**
 
@@ -100,7 +100,7 @@ function tripler(nums) {
 }
 ```
 
-***
+---
 
 ### **Long Words**
 
@@ -124,7 +124,7 @@ function longWords(words) {
 }
 ```
 
-***
+---
 
 ### **Remove E Words**
 
@@ -152,7 +152,7 @@ function removeEWords(sentence) {
 }
 ```
 
-***
+---
 
 ### **Max Value**
 
@@ -191,7 +191,7 @@ function twoSum(arr, target) {
 }
 ```
 
-***
+---
 
 ### **Two Dimensional Product**
 
@@ -259,7 +259,7 @@ let twoDimensionalProduct = (a) =>
   a.reduce((p, subA) => p * subA.reduce((acc, n) => acc * n), 1);
 ```
 
-***
+---
 
 ### **Popper**
 
@@ -290,7 +290,7 @@ let popper = function (array, num) {
 };
 ```
 
-***
+---
 
 ### **Choose Primes**
 
@@ -341,7 +341,7 @@ let choosePrimes = function (nums) {
 };
 ```
 
-***
+---
 
 ### **Fizz Buzz Recall**
 
@@ -375,7 +375,7 @@ let fizzBuzz = function (max) {
 };
 ```
 
-***
+---
 
 ### **Longest Word**
 
@@ -396,7 +396,7 @@ function longestWord(sentence) {
 }
 ```
 
-***
+---
 
 ### **Sum With Reduce**
 
@@ -420,7 +420,7 @@ function sumWithReduce(nums) {
 }
 ```
 
-***
+---
 
 ### **Abbreviate**
 
@@ -472,7 +472,7 @@ let abbreviate = function (word) {
 };
 ```
 
-***
+---
 
 ### **Product With Reduce**
 
@@ -496,7 +496,7 @@ function productWithReduce(nums) {
 }
 ```
 
-***
+---
 
 ### **Remove Last Vowel Recall**
 
@@ -532,7 +532,7 @@ let removeLastVowel = function (word) {
 };
 ```
 
-***
+---
 
 ### **Abbreviate Words**
 
@@ -565,7 +565,7 @@ let vowelRemover = function (word) {
 };
 ```
 
-***
+---
 
 ### **Max With Reduce**
 
@@ -585,7 +585,7 @@ function maxWithReduce(nums) {
 }
 ```
 
-***
+---
 
 ### **Contains Word**
 
@@ -605,7 +605,7 @@ function containsWord(sentence, targetWord) {
 }
 ```
 
-***
+---
 
 ### **Uncompress**
 
@@ -644,7 +644,7 @@ function uncompress(str) {
 }
 ```
 
-***
+---
 
 ### **Hipsterfy**
 
@@ -703,7 +703,7 @@ let hipsterfy = function (sentence) {
 };
 ```
 
-***
+---
 
 ### **Least Common Multiple Recall**
 
@@ -735,7 +735,7 @@ function leastCommonMultiple(num1, num2) {
 }
 ```
 
-***
+---
 
 ### **Rotate**
 
@@ -762,7 +762,7 @@ let rotate = function (array, num) {
 };
 ```
 
-***
+---
 
 ### **Addition Mutator**
 
@@ -778,7 +778,7 @@ function additionMutator(array, num) {
 }
 ```
 
-***
+---
 
 ### **Alternating Words**
 
@@ -798,16 +798,16 @@ function alternatingWords(array) {
 }
 ```
 
-***
+---
 
 ### **Repeating Translate**
 
 Write a function `repeatingTranslate` that accepts a sentence as an argument. The function should translate the sentence according to the following rules:
 
-* words that are shorter than 3 characters are unchanged
-* words that are 3 characters or longer are translated according to the following rules:
-  * if the word ends with a vowel, simply repeat the word twice (example: 'like'->'likelike')
-  * if the word ends with a non-vowel, repeat all letters that come after the word's last vowel, including the last vowel itself (example: 'trash'->'trashash')
+- words that are shorter than 3 characters are unchanged
+- words that are 3 characters or longer are translated according to the following rules:
+  - if the word ends with a vowel, simply repeat the word twice (example: 'like'->'likelike')
+  - if the word ends with a non-vowel, repeat all letters that come after the word's last vowel, including the last vowel itself (example: 'trash'->'trashash')
 
 Note that if words are capitalized in the original sentence, they should remain capitalized in the translated sentence. Vowels are the letters a, e, i, o, u.
 
@@ -875,4 +875,4 @@ let transform = function (word) {
 };
 ```
 
-***
+---

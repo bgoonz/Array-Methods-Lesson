@@ -2,16 +2,16 @@
 
 **What does the term "mutability" mean in programming?**
 
-* "Mutability" refers to an object's ability to undergo change. Mutable objects can be modified, while immutable objects cannot be changed after they are created.
+- "Mutability" refers to an object's ability to undergo change. Mutable objects can be modified, while immutable objects cannot be changed after they are created.
 
-***
+---
 
 ** Identify which of the following JavaScript data types are mutable: number, string, boolean, array**
 
-* Arrays are mutable.
-* Numbers, strings, and booleans are all immutable.
+- Arrays are mutable.
+- Numbers, strings, and booleans are all immutable.
 
-***
+---
 
 ## .concat​
 
@@ -25,7 +25,7 @@ The concat() method is used to merge two or more arrays. This method does not ch
 Array.prototype.concat ( [ item1 [ , item2 [ , … ] ] ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/concat)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
 #### Example
 
@@ -51,7 +51,7 @@ arr.copyWithin(target, start)
 arr.copyWithin(target, start, end)
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/copyWithin](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/copyWithin)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
 
 #### Example
 
@@ -79,7 +79,7 @@ The entries() method returns a new Array Iterator object that contains the key/v
 a.entries()
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/entries)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 
 #### Example
 
@@ -107,7 +107,7 @@ The every() method tests whether all elements in the array pass the test impleme
 Array.prototype.every ( callbackfn [ , thisArg ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/every)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 #### Example
 
@@ -136,7 +136,7 @@ arr.fill(value, start)
 arr.fill(value, start, end)
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/fill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/fill)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
 
 #### Example
 
@@ -167,7 +167,7 @@ The filter() method creates a new array with all elements that pass the test imp
 Array.prototype.filter ( callbackfn [ , thisArg ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/filter)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 #### Example
 
@@ -192,7 +192,7 @@ The find() method returns a value of the first element in the array that satisfi
 arr.find(callback[, thisArg])
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/find)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
 #### Example
 
@@ -219,7 +219,7 @@ The findIndex() method returns an index of the first element in the array that s
 arr.findIndex(callback[, thisArg])
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/findIndex)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 
 #### Example
 
@@ -246,13 +246,13 @@ The flat() method creates a new array with all sub-array elements concatenated i
 let newArray = arr.flat([depth]);
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/flat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/flat)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
 
 #### Example
 
 ```
 let arr1 = [1, 2, [3, 4]];
-arr1.flat(); 
+arr1.flat();
 // [1, 2, 3, 4]
 
 let arr2 = [1, 2, [3, 4, [5, 6]]];
@@ -280,7 +280,7 @@ The forEach() method executes a provided function once per array element.
 Array.prototype.forEach ( callbackfn [ , thisArg ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/forEach)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 #### Example
 
@@ -309,7 +309,7 @@ arr.includes(searchElement)
 arr.includes(searchElement, fromIndex)
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/includes)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
 #### Example
 
@@ -340,7 +340,7 @@ The indexOf() method returns the first index at which a given element can be fou
 Array.prototype.indexOf ( searchElement [ , fromIndex ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/indexOf)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 
 #### Example
 
@@ -370,7 +370,7 @@ The join() method joins all elements of an array into a string.
 Array.prototype.join (separator)
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/join)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
 #### Example
 
@@ -399,14 +399,14 @@ The keys() method returns a new Array Iterator that contains the keys for each i
 arr.keys()
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/keys)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys)
 
 #### Example
 
 ```
 let array1 = ['a', 'b', 'c'];
-let iterator = array1.keys(); 
-  
+let iterator = array1.keys();
+
 for (let key of iterator) {
   console.log(key); // expected output: 0 1 2
 }
@@ -424,7 +424,7 @@ The lastIndexOf() method returns the last index at which a given element can be 
 Array.prototype.lastIndexOf ( searchElement [ , fromIndex ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/lastIndexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/lastIndexOf)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)
 
 #### Example
 
@@ -450,7 +450,7 @@ The map() method creates a new array with the results of calling a provided func
 Array.prototype.map ( callbackfn [ , thisArg ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 #### Example
 
@@ -476,7 +476,7 @@ The pop() method removes the last element from an array and returns that element
 Array.prototype.pop ( )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/pop)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
 #### Example
 
@@ -507,7 +507,7 @@ The push() method adds one or more elements to the end of an array and returns t
 Array.prototype.push ( [ item1 [ , item2 [ , … ] ] ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/push)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 #### Example
 
@@ -538,7 +538,7 @@ The reduce() method applies a function against an accumulator and each value of 
 Array.prototype.reduce ( callbackfn [ , initialValue ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/Reduce)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 #### Example
 
@@ -567,7 +567,7 @@ The reduceRight() method applies a function against an accumulator and each valu
 Array.prototype.reduceRight ( callbackfn [ , initialValue ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/ReduceRight](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/ReduceRight)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight)
 
 #### Example
 
@@ -592,7 +592,7 @@ The reverse() method reverses an array in place. The first array element becomes
 Array.prototype.reverse ( )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/reverse)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
 #### Example
 
@@ -601,12 +601,12 @@ let array1 = ['one', 'two', 'three'];
 console.log('array1: ', array1);
 // expected output: Array ['one', 'two', 'three']
 
-let reversed = array1.reverse(); 
+let reversed = array1.reverse();
 console.log('reversed: ', reversed);
 // expected output: Array ['three', 'two', 'one']
 
 /* Careful: reverse is destructive. It also changes
-the original array */ 
+the original array */
 console.log('array1: ', array1);
 // expected output: Array ['three', 'two', 'one']
 ```
@@ -623,7 +623,7 @@ The shift() method removes the first element from an array and returns that elem
 Array.prototype.shift ( )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/shift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/shift)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
 
 #### Example
 
@@ -651,7 +651,7 @@ The slice() method returns a shallow copy of a portion of an array into a new ar
 Array.prototype.slice (start, end)
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/slice)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
 #### Example
 
@@ -680,7 +680,7 @@ The some() method tests whether some element in the array passes the test implem
 Array.prototype.some ( callbackfn [ , thisArg ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/some)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
 #### Example
 
@@ -708,7 +708,7 @@ The sort() method sorts the elements of an array in place and returns the array.
 Array.prototype.sort (comparefn)
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/sort)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 #### Example
 
@@ -736,7 +736,7 @@ The splice() method changes the content of an array by removing existing element
 Array.prototype.splice (start, deleteCount [ , item1 [ , item2 [ , … ] ] ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/splice)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 #### Example
 
@@ -767,7 +767,7 @@ The toString() method returns a string representing the specified array and its 
 Array.prototype.toString ( )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/toString)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString)
 
 #### Example
 
@@ -790,7 +790,7 @@ The unshift() method adds one or more elements to the beginning of an array and 
 Array.prototype.unshift ( [ item1 [ , item2 [ , … ] ] ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/unshift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/unshift)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
 
 #### Example
 
@@ -816,7 +816,7 @@ The values() method returns a new Array Iterator object that contains the values
 arr.values()
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/values)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values)
 
 #### Example
 

@@ -1,11 +1,8 @@
 # Examples
 
-
-
-### [concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/concat)
+### [concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
 merge two or more arrays\
-
 
 ```
 // example
@@ -14,12 +11,11 @@ merge two or more arrays\
 const new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 ```
 
-***
+---
 
-### [copyWithin()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/copyWithin)
+### [copyWithin()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
 
 copies part of array to another location\
-
 
 ```
 // example
@@ -28,12 +24,11 @@ copies part of array to another location\
 arr.copyWithin(target[, start[, end]])
 ```
 
-***
+---
 
-### [entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/entries)
+### [entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 
 Array Iterator with key/value pairs for each index\
-
 
 ```
 // example
@@ -42,12 +37,11 @@ Array Iterator with key/value pairs for each index\
 arr.entries()
 ```
 
-***
+---
 
-### [every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/every)
+### [every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 tests if all elements in the array pass the test\
-
 
 ```
 // example
@@ -56,12 +50,11 @@ tests if all elements in the array pass the test\
 arr.every(callback(element[, index[, array]])[, thisArg])
 ```
 
-***
+---
 
-### [fill()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/fill)
+### [fill()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
 
 changes elements in an array to a static value\
-
 
 ```
 // example
@@ -70,12 +63,11 @@ changes elements in an array to a static value\
 arr.fill(value[, start[, end]])
 ```
 
-***
+---
 
-### [filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/filter)
+### [filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 creates new array with elements that pass test\
-
 
 ```
 // example
@@ -84,12 +76,11 @@ creates new array with elements that pass test\
 let newArray = arr.filter(callback(element[, index, [array]])[, thisArg])
 ```
 
-***
+---
 
-### [find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/find)
+### [find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
 returns the value of the first element, that matches test\
-
 
 ```
 // example
@@ -98,12 +89,11 @@ returns the value of the first element, that matches test\
 arr.find(callback(element[, index[, array]])[, thisArg])
 ```
 
-***
+---
 
-### [findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/findIndex)
+### [findIndex()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 
 returns index of the first element, that matches test\
-
 
 ```
 // example
@@ -112,12 +102,11 @@ returns index of the first element, that matches test\
 arr.findIndex(callback( element[, index[, array]] )[, thisArg])
 ```
 
-***
+---
 
-### [flat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/flat)
+### [flat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
 
 creates a new array with sub-array elements flattened by specified depth.\
-
 
 ```
 // example
@@ -126,12 +115,11 @@ creates a new array with sub-array elements flattened by specified depth.\
 const new_array = arr.flat([depth]);
 ```
 
-***
+---
 
-### [flatMap()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/flatMap)
+### [flatMap()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
 
 creates a new array with sub-array elements flattened by specified depth.\
-
 
 ```
 // example
@@ -142,12 +130,11 @@ let new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
 }[, thisArg])
 ```
 
-***
+---
 
-### [forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/forEach)
+### [forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 executes provided function once for each array element\
-
 
 ```
 // example
@@ -156,12 +143,11 @@ executes provided function once for each array element\
 arr.forEach(callback(currentValue [, index [, array]])[, thisArg])
 ```
 
-***
+---
 
-### [includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/includes)
+### [includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
 determines if array includes a certain value\
-
 
 ```
 // example
@@ -170,12 +156,11 @@ determines if array includes a certain value\
 arr.includes(valueToFind[, fromIndex])
 ```
 
-***
+---
 
-### [indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/indexOf)
+### [indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 
 returns the first index at which element can be found\
-
 
 ```
 // example
@@ -184,12 +169,11 @@ returns the first index at which element can be found\
 arr.indexOf(searchElement[, fromIndex])
 ```
 
-***
+---
 
-### [join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/join)
+### [join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
 returns string by concatenating all elements in array\
-
 
 ```
 // example
@@ -198,12 +182,11 @@ returns string by concatenating all elements in array\
 arr.join([separator])
 ```
 
-***
+---
 
-### [keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/keys)
+### [keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys)
 
 returns Array Iterator that contains keys for each index\
-
 
 ```
 // example
@@ -215,12 +198,11 @@ returns Array Iterator that contains keys for each index\
 arr.keys()
 ```
 
-***
+---
 
-### [lastIndexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/lastIndexOf)
+### [lastIndexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)
 
 returns last index at which given element can be found\
-
 
 ```
 // example
@@ -229,12 +211,11 @@ returns last index at which given element can be found\
 arr.lastIndexOf(searchElement[, fromIndex])
 ```
 
-***
+---
 
-### [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
+### [map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 creates new array with results of provided function\
-
 
 ```
 // example
@@ -245,12 +226,11 @@ let new_array = arr.map(function callback( currentValue[, index[, array]]) {
 }[, thisArg])
 ```
 
-***
+---
 
-### [pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/pop)
+### [pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
 removes last element from array and returns that element\
-
 
 ```
 // example
@@ -260,12 +240,11 @@ arr.pop() // returns: 3 // arr is [ 1, 2 ]
 arr.pop()
 ```
 
-***
+---
 
-### [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/push)
+### [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 adds one or more elements to end of array and returns new length\
-
 
 ```
 // example
@@ -275,12 +254,11 @@ arr.push(1) // returns: 4 // arr is [ 1, 2, 3, 4 ]
 arr.push(element1[, ...[, elementN]])
 ```
 
-***
+---
 
-### [reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/Reduce)
+### [reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 executes a reducer function, resulting in single output value\
-
 
 ```
 // example
@@ -289,12 +267,11 @@ executes a reducer function, resulting in single output value\
 arr.reduce(callback( accumulator, currentValue[, index[, array]] )[, initialValue])
 ```
 
-***
+---
 
-### [reduceRight()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/ReduceRight)
+### [reduceRight()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight)
 
 executes a reducer function from right to left, resulting in single output value\
-
 
 ```
 // example
@@ -303,12 +280,11 @@ executes a reducer function from right to left, resulting in single output value
 arr.reduceRight(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 ```
 
-***
+---
 
-### [reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/reverse)
+### [reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
 reverses an array\
-
 
 ```
 // example
@@ -317,12 +293,11 @@ reverses an array\
 arr.reverse()
 ```
 
-***
+---
 
-### [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/shift)
+### [shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
 
 removes the first element from array and returns that element\
-
 
 ```
 // example
@@ -332,12 +307,11 @@ arr.shift() // returns: 1 // arr is [ 2, 3 ]
 arr.shift()
 ```
 
-***
+---
 
-### [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/slice)
+### [slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
 returns a copy of part of array, while original array is not modified\
-
 
 ```
 // example
@@ -346,12 +320,11 @@ returns a copy of part of array, while original array is not modified\
 arr.slice([begin[, end]])
 ```
 
-***
+---
 
-### [some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/some)
+### [some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
 tests whether at least one element in array passes the test\
-
 
 ```
 // example
@@ -360,12 +333,11 @@ tests whether at least one element in array passes the test\
 arr.some(callback(element[, index[, array]])[, thisArg])
 ```
 
-***
+---
 
-### [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/sort)
+### [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 sorts the elements of array in place\
-
 
 ```
 // example
@@ -374,12 +346,11 @@ sorts the elements of array in place\
 arr.sort([compareFunction])
 ```
 
-***
+---
 
-### [splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/splice)
+### [splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 changes contents of array by removing, replacing and/or adding elements\
-
 
 ```
 // example
@@ -389,12 +360,11 @@ arr.splice(1, 2, 'a') // returns [ 2, 3 ] // arr is [ 1, "a", 4 ]
 let arrDeletedItems = array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
 ```
 
-***
+---
 
-### [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/toLocaleString)
+### [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString)
 
 elements are converted to Strings using toLocaleString and are separated by locale-specific String (eg. “,”)\
-
 
 ```
 // example
@@ -403,12 +373,11 @@ elements are converted to Strings using toLocaleString and are separated by loca
 arr.toLocaleString([locales[, options]]);
 ```
 
-***
+---
 
-### [toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/toString)
+### [toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString)
 
 returns a string representing the specified array\
-
 
 ```
 // example
@@ -417,12 +386,11 @@ returns a string representing the specified array\
 arr.toString()
 ```
 
-***
+---
 
-### [unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/unshift)
+### [unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
 
 adds one or more elements to beginning of array and returns new length\
-
 
 ```
 // example
@@ -432,12 +400,11 @@ arr.unshift(0, 99) // returns 5 // arr is [ 0, 99, 1, 2, 3 ]
 arr.unshift(element1[, ...[, elementN]])
 ```
 
-***
+---
 
-### [values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/values)
+### [values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values)
 
 returns Array Iterator object that contains values for each index in array\
-
 
 ```
 // example

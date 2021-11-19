@@ -16,7 +16,7 @@ function reverseString(str) {
 }
 ```
 
-***
+---
 
 ### **Range**
 
@@ -34,7 +34,7 @@ function range(min, max) {
 }
 ```
 
-***
+---
 
 ### **Log Between Stepper Recall**
 
@@ -50,7 +50,7 @@ function logBetweenStepper(min, max, step) {
 }
 ```
 
-***
+---
 
 ### **Reverse Sentence**
 
@@ -62,7 +62,7 @@ function reverseSentence(sentence) {
 }
 ```
 
-***
+---
 
 ### **My Includes**
 
@@ -79,7 +79,7 @@ function myIncludes(arr, target) {
 }
 ```
 
-***
+---
 
 ### **Initials**
 
@@ -96,7 +96,7 @@ function initials(name) {
 }
 ```
 
-***
+---
 
 ### **Sum Array Recall**
 
@@ -108,7 +108,7 @@ function sumArray(array) {
 }
 ```
 
-***
+---
 
 ### **Factors Of**
 
@@ -129,7 +129,7 @@ function factorsOf(num) {
 }
 ```
 
-***
+---
 
 ### **My Index Of**
 
@@ -146,7 +146,7 @@ function myIndexOf(arr, target) {
 }
 ```
 
-***
+---
 
 ### **Vowel Counter Recall**
 
@@ -165,7 +165,7 @@ function countVowels(word) {
 }
 ```
 
-***
+---
 
 ### **Has Vowel**
 
@@ -183,7 +183,7 @@ function hasVowel(str) {
 }
 ```
 
-***
+---
 
 ### **Odd Numbers**
 
@@ -203,7 +203,7 @@ let oddNumbers = function (min, max) {
 };
 ```
 
-***
+---
 
 ### **Fizz Buzz Array**
 
@@ -221,7 +221,7 @@ function fizzBuzz(max) {
 }
 ```
 
-***
+---
 
 ### **First Vowel**
 
@@ -240,7 +240,7 @@ function firstVowel(str) {
 }
 ```
 
-***
+---
 
 ### **Even Numbers**
 
@@ -258,7 +258,7 @@ let evenNumbers = function (max) {
 };
 ```
 
-***
+---
 
 ### **Is Prime Recall**
 
@@ -275,7 +275,7 @@ function isPrime(number) {
 }
 ```
 
-***
+---
 
 ### **Last Vowel**
 
@@ -296,7 +296,7 @@ function lastVowel(str) {
 }
 ```
 
-***
+---
 
 ### **Pit Pat**
 
@@ -314,7 +314,7 @@ function pitPat(max) {
 }
 ```
 
-***
+---
 
 ### **Remove Last Vowel**
 
@@ -334,7 +334,7 @@ function removeLastVowel(word) {
 }
 ```
 
-***
+---
 
 ### **Pairs Maker**
 
@@ -352,7 +352,7 @@ function pairsMaker(arr) {
 }
 ```
 
-***
+---
 
 ### **Min Value**
 
@@ -367,7 +367,7 @@ function minValue(nums) {
 //Math.min, and use spread operator to allow this to assess arrays (...)
 ```
 
-***
+---
 
 ### **Two Sum**
 
@@ -386,7 +386,7 @@ function twoSum(arr, target) {
 }
 ```
 
-***
+---
 
 ### **Rotate Right**
 
@@ -407,7 +407,7 @@ function rotateRight(array, num) {
 }
 ```
 
-***
+---
 
 ### **Two Dimensional Sum**
 
@@ -426,7 +426,7 @@ function twoDimensionalSum(arr) {
 }
 ```
 
-***
+---
 
 ### **Rotate Left**
 
@@ -443,7 +443,7 @@ function rotateLeft(array, num) {
 }
 ```
 
-***
+---
 
 ### **Pig Latin Recall**
 
@@ -465,7 +465,7 @@ function pigLatinWord(word) {
 }
 ```
 
-***
+---
 
 ### **Least Common Multiple**
 
@@ -500,4 +500,4 @@ let gcd = function (a, b) {
 };
 ```
 
-***
+---
