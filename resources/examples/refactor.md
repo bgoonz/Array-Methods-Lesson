@@ -9,7 +9,7 @@ Write a function reverseString(str) that takes in a string. The function should 
 ```js
 function reverseString(str) {
   let newStr = "";
-  for (var i = str.length - 1; i > -1; i--) {
+  for (let i = str.length - 1; i > -1; i--) {
     newStr += str[i];
   }
   return newStr;
@@ -27,7 +27,7 @@ Define this function using function expression syntax.
 ```js
 function range(min, max) {
   let result = [];
-  for (var i = min; i <= max; i++) {
+  for (let i = min; i <= max; i++) {
     result.push(i);
   }
   return result;
@@ -44,7 +44,7 @@ Hint: this function only needs to print using console.log it does not need to re
 
 ```js
 function logBetweenStepper(min, max, step) {
-  for (var i = min; i <= max; i += step) {
+  for (let i = min; i <= max; i += step) {
     console.log(i);
   }
 }
@@ -70,7 +70,7 @@ Write a function myIncludes(arr, target) that accepts an array and an target val
 
 ```js
 function myIncludes(arr, target) {
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] === target) {
       return true;
     }
@@ -89,7 +89,7 @@ Write a function initials(name) that accepts a full name as an arg. The function
 function initials(name) {
   let arr = name.split(" ");
   let initials = [];
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     initials.push(arr[i][0]);
   }
   return initials.join("").toUpperCase();
@@ -120,7 +120,7 @@ Define this function using function expression syntax.
 function factorsOf(num) {
   let result = [];
   if (num === 0) return []; //edge case
-  for (var i = 1; i <= num; i++) {
+  for (let i = 1; i <= num; i++) {
     if (num % i === 0) {
       result.push(i);
     }
@@ -137,7 +137,7 @@ Write a function myIndexOf(arr, target) that takes in an array and target value 
 
 ```js
 function myIndexOf(arr, target) {
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] === target) {
       return i;
     }
@@ -156,7 +156,7 @@ Write a function, countVowels(word), that takes in a string word and returns the
 function countVowels(word) {
   const VOWEL = "aeiou";
   let count = 0;
-  for (var i = 0; i < word.length; i++) {
+  for (let i = 0; i < word.length; i++) {
     if (VOWEL.indexOf(word[i]) > -1) {
       count++;
     }
@@ -174,7 +174,7 @@ Write a function hasVowel(str) that takes in a string. The function should retur
 ```js
 function hasVowel(str) {
   const VOWEL = "aeiou";
-  for (var i = 0; i < str.length; i++) {
+  for (let i = 0; i < str.length; i++) {
     if (VOWEL.indexOf(str[i]) > -1) {
       return true;
     }
@@ -194,7 +194,7 @@ Define this function using function expression syntax.
 ```js
 let oddNumbers = function (min, max) {
   let result = [];
-  for (var i = min + 1; i < max; i++) {
+  for (let i = min + 1; i < max; i++) {
     if (Math.abs(i % 2) === 1) {
       result.push(i);
     }
@@ -212,7 +212,7 @@ Write a function fizzBuzz(max) that accepts a number as an arg. The function sho
 ```js
 function fizzBuzz(max) {
   let result = [];
-  for (var i = 1; i < max; i++) {
+  for (let i = 1; i < max; i++) {
     if ((i % 3 === 0 || i % 5 === 0) && !(i % 3 === 0 && i % 5 === 0)) {
       result.push(i);
     }
@@ -231,7 +231,7 @@ Write a function firstVowel(str) that takes in a string and returns the first vo
 function firstVowel(str) {
   const VOWEL = "aeiou";
   str = str.toLowerCase(); // for edge cases
-  for (var i = 0; i < str.length; i++) {
+  for (let i = 0; i < str.length; i++) {
     if (VOWEL.indexOf(str[i]) > -1) {
       return str[i];
     }
@@ -251,7 +251,7 @@ Define this function using function expression syntax.
 ```js
 let evenNumbers = function (max) {
   let result = [];
-  for (var i = 2; i < max; i += 2) {
+  for (let i = 2; i < max; i += 2) {
     result.push(i);
   }
   return result;
@@ -266,7 +266,7 @@ Define a function isPrime(number) that returns true if number is prime. Otherwis
 
 ```js
 function isPrime(number) {
-  for (var i = 2; i < number; i++) {
+  for (let i = 2; i < number; i++) {
     if (number % i === 0) {
       return false;
     }
@@ -287,7 +287,7 @@ Hint: You may find the String#toLowerCase or String#toUpperCase methods useful
 function lastVowel(str) {
   let newStr = str.toLowerCase();
   const VOWEL = "aeiou";
-  for (var i = str.length - 1; i > -1; i--) {
+  for (let i = str.length - 1; i > -1; i--) {
     if (VOWEL.indexOf(newStr[i]) > -1) {
       return str[i];
     }
@@ -305,7 +305,7 @@ Write a function pitPat(max) that accepts a number as an arg. The function shoul
 ```js
 function pitPat(max) {
   let result = [];
-  for (var i = 1; i <= max; i++) {
+  for (let i = 1; i <= max; i++) {
     if ((i % 4 === 0 || i % 6 === 0) && !(i % 4 === 0 && i % 6 === 0)) {
       result.push(i);
     }
@@ -324,7 +324,7 @@ Write a function removeLastVowel(word) that takes in a string and returns the st
 function removeLastVowel(word) {
   const VOWEL = "aeiou";
   let wordArr = word.split("");
-  for (var i = wordArr.length - 1; i > -1; i--) {
+  for (let i = wordArr.length - 1; i > -1; i--) {
     if (VOWEL.indexOf(wordArr[i]) > -1) {
       wordArr.splice(i, 1);
       return wordArr.join("");
@@ -343,8 +343,8 @@ Write a function pairsMaker(arr) that takes in a an array as an argument. The fu
 ```js
 function pairsMaker(arr) {
   let result = [];
-  for (var i = 0; i < arr.length; i++) {
-    for (var j = i + 1; j < arr.length; j++) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
       result.push([arr[i], arr[j]]);
     }
   }
@@ -375,8 +375,8 @@ Write a function twoSum(arr, target) that accepts an array and a target number a
 
 ```js
 function twoSum(arr, target) {
-  for (var i = 0; i < arr.length; i++) {
-    for (var j = i + 1; j < arr.length; j++) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] + arr[j] === target) {
         return true;
       }
@@ -399,7 +399,7 @@ HINT: you can use Array#slice to create a copy of an array
 ```js
 function rotateRight(array, num) {
   let result = array.slice(0);
-  for (var i = 0; i < num; i++) {
+  for (let i = 0; i < num; i++) {
     let ele = result.pop();
     result.unshift(ele);
   }
@@ -416,9 +416,9 @@ Write a function twoDimensionalSum(arr) that takes in a 2D array of numbers and 
 ```js
 function twoDimensionalSum(arr) {
   let sum = 0;
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     let subArr = arr[i];
-    for (var j = 0; j < subArr.length; j++) {
+    for (let j = 0; j < subArr.length; j++) {
       sum += subArr[j];
     }
   }
@@ -436,7 +436,7 @@ Define this function using function expression syntax.
 
 ```js
 function rotateLeft(array, num) {
-  for (var i = 0; i < num; i++) {
+  for (let i = 0; i < num; i++) {
     let ele = array.shift();
     array.push(ele);
   }
@@ -457,7 +457,7 @@ Hint: Remember the String#includes method!
 function pigLatinWord(word) {
   const VOWEL = "aeiou";
   if (VOWEL.indexOf(word[0]) > -1) return word + "yay";
-  for (var i = 0; i < word.length; i++) {
+  for (let i = 0; i < word.length; i++) {
     if (VOWEL.indexOf(word[i]) > -1) {
       return word.slice(i) + word.slice(0, i) + "ay";
     }
@@ -477,7 +477,7 @@ Write a function leastCommonMultiple(num1, num2) that accepts two numbers as arg
 function leastCommonMultiple(num1, num2) {
   let upperBound = num1 * num2;
   let lowerBound = Math.max(num1, num2);
-  for (var i = lowerBound; i <= upperBound; i++) {
+  for (let i = lowerBound; i <= upperBound; i++) {
     if (i % num1 === 0 && i % num2 === 0) {
       return i;
     }
@@ -492,7 +492,7 @@ function lcm(num1, num2) {
   return (num1 * num2) / gcd(num1, num2);
 }
 
-var gcd = function (a, b) {
+let gcd = function (a, b) {
   if (b == 0) {
     return a;
   }

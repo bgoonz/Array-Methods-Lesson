@@ -505,7 +505,7 @@ Write a function removeLastVowel(word) that takes in a string and returns the st
 ```js
 function removeLastVowel(word) {
   let words = word.split("");
-  for (var i = word.length; i > -1; i--) {
+  for (let i = word.length; i > -1; i--) {
     if ("aeiou".includes(word[i])) {
       words.splice(i, 1);
       return words.join("");
@@ -637,7 +637,7 @@ let uncompress = function (str) {
 ```js
 function uncompress(str) {
   let newStr = "";
-  for (var i = 0; i < str.length; i += 2) {
+  for (let i = 0; i < str.length; i += 2) {
     newStr += str[i].repeat(Number(str[i + 1]));
   }
   return newStr;
@@ -665,7 +665,7 @@ function hipsterfy(sentence) {
 let vowelRemover = function (word) {
   const VOWEL = "aeiou";
   let idx;
-  for (var i = word.length; i > -1; i--) {
+  for (let i = word.length; i > -1; i--) {
     if (VOWEL.includes(word[i])) {
       idx = i;
       break;
@@ -748,12 +748,12 @@ Define this function using function expression syntax.
 ```js
 let rotate = function (array, num) {
   if (num > 0) {
-    for (var i = 0; i < num; i++) {
+    for (let i = 0; i < num; i++) {
       let ele = array.pop();
       array.unshift(ele);
     }
   } else {
-    for (var i = 0; i < Math.abs(num); i++) {
+    for (let i = 0; i < Math.abs(num); i++) {
       let ele = array.shift();
       array.push(ele);
     }
@@ -867,7 +867,7 @@ function wordFilter(word) {
 }
 
 let transform = function (word) {
-  for (var i = word.length; i > -1; i--) {
+  for (let i = word.length; i > -1; i--) {
     if ("aeiou".includes(word[i])) {
       return word.slice(i);
     }

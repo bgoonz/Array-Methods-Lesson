@@ -30,8 +30,8 @@ Array.prototype.concat ( [ item1 [ , item2 [ , … ] ] ] )
 #### Example
 
 ```
-var array1 = ['a', 'b', 'c'];
-var array2 = ['d', 'e', 'f'];
+let array1 = ['a', 'b', 'c'];
+let array2 = ['d', 'e', 'f'];
 
 console.log(array1.concat(array2));
 // expected output: Array ["a", "b", "c", "d", "e", "f"]
@@ -56,7 +56,7 @@ arr.copyWithin(target, start, end)
 #### Example
 
 ```
-var array1 = ['a', 'b', 'c', 'd', 'e'];
+let array1 = ['a', 'b', 'c', 'd', 'e'];
 
 // copy to index 0 the element at index 3
 console.log(array1.copyWithin(0, 3, 4));
@@ -84,9 +84,9 @@ a.entries()
 #### Example
 
 ```
-var array1 = ['a', 'b', 'c'];
+let array1 = ['a', 'b', 'c'];
 
-var iterator1 = array1.entries();
+let iterator1 = array1.entries();
 
 console.log(iterator1.next().value);
 // expected output: Array [0, "a"]
@@ -116,7 +116,7 @@ function isBelowThreshold(currentValue) {
   return currentValue < 40;
 }
 
-var array1 = [1, 30, 39, 29, 10, 13];
+let array1 = [1, 30, 39, 29, 10, 13];
 
 console.log(array1.every(isBelowThreshold));
 // expected output: true
@@ -141,7 +141,7 @@ arr.fill(value, start, end)
 #### Example
 
 ```
-var array1 = [1, 2, 3, 4];
+let array1 = [1, 2, 3, 4];
 
 // fill with 0 from position 2 until position 4
 console.log(array1.fill(0, 2, 4));
@@ -172,7 +172,7 @@ Array.prototype.filter ( callbackfn [ , thisArg ] )
 #### Example
 
 ```
-var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+let words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const result = words.filter(word => word.length > 6);
 
@@ -197,9 +197,9 @@ arr.find(callback[, thisArg])
 #### Example
 
 ```
-var array1 = [5, 12, 8, 130, 44];
+let array1 = [5, 12, 8, 130, 44];
 
-var found = array1.find(function(element) {
+let found = array1.find(function(element) {
   return element > 10;
 });
 
@@ -224,7 +224,7 @@ arr.findIndex(callback[, thisArg])
 #### Example
 
 ```
-var array1 = [5, 12, 8, 130, 44];
+let array1 = [5, 12, 8, 130, 44];
 
 function isLargeNumber(element) {
   return element > 13;
@@ -243,7 +243,7 @@ no mutation
 The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
 ```
-var newArray = arr.flat([depth]);
+let newArray = arr.flat([depth]);
 ```
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/flat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/flat)
@@ -251,19 +251,19 @@ var newArray = arr.flat([depth]);
 #### Example
 
 ```
-var arr1 = [1, 2, [3, 4]];
+let arr1 = [1, 2, [3, 4]];
 arr1.flat(); 
 // [1, 2, 3, 4]
 
-var arr2 = [1, 2, [3, 4, [5, 6]]];
+let arr2 = [1, 2, [3, 4, [5, 6]]];
 arr2.flat();
 // [1, 2, 3, 4, [5, 6]]
 
-var arr3 = [1, 2, [3, 4, [5, 6]]];
+let arr3 = [1, 2, [3, 4, [5, 6]]];
 arr3.flat(2);
 // [1, 2, 3, 4, 5, 6]
 
-var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
+let arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
 arr4.flat(Infinity);
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
@@ -285,7 +285,7 @@ Array.prototype.forEach ( callbackfn [ , thisArg ] )
 #### Example
 
 ```
-var array1 = ['a', 'b', 'c'];
+let array1 = ['a', 'b', 'c'];
 
 array1.forEach(function(element) {
   console.log(element);
@@ -314,12 +314,12 @@ arr.includes(searchElement, fromIndex)
 #### Example
 
 ```
-var array1 = [1, 2, 3];
+let array1 = [1, 2, 3];
 
 console.log(array1.includes(2));
 // expected output: true
 
-var pets = ['cat', 'dog', 'bat'];
+let pets = ['cat', 'dog', 'bat'];
 
 console.log(pets.includes('cat'));
 // expected output: true
@@ -345,7 +345,7 @@ Array.prototype.indexOf ( searchElement [ , fromIndex ] )
 #### Example
 
 ```
-var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+let beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
 console.log(beasts.indexOf('bison'));
 // expected output: 1
@@ -375,7 +375,7 @@ Array.prototype.join (separator)
 #### Example
 
 ```
-var elements = ['Fire', 'Air', 'Water'];
+let elements = ['Fire', 'Air', 'Water'];
 
 console.log(elements.join());
 // expected output: "Fire,Air,Water"
@@ -404,8 +404,8 @@ arr.keys()
 #### Example
 
 ```
-var array1 = ['a', 'b', 'c'];
-var iterator = array1.keys(); 
+let array1 = ['a', 'b', 'c'];
+let iterator = array1.keys(); 
   
 for (let key of iterator) {
   console.log(key); // expected output: 0 1 2
@@ -429,7 +429,7 @@ Array.prototype.lastIndexOf ( searchElement [ , fromIndex ] )
 #### Example
 
 ```
-var animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
+let animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
 
 console.log(animals.lastIndexOf('Dodo'));
 // expected output: 3
@@ -455,7 +455,7 @@ Array.prototype.map ( callbackfn [ , thisArg ] )
 #### Example
 
 ```
-var array1 = [1, 4, 9, 16];
+let array1 = [1, 4, 9, 16];
 
 // pass a function to map
 const map1 = array1.map(x => x * 2);
@@ -481,7 +481,7 @@ Array.prototype.pop ( )
 #### Example
 
 ```
-var plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+let plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
 
 console.log(plants.pop());
 // expected output: "tomato"
@@ -512,7 +512,7 @@ Array.prototype.push ( [ item1 [ , item2 [ , … ] ] ] )
 #### Example
 
 ```
-var animals = ['pigs', 'goats', 'sheep'];
+let animals = ['pigs', 'goats', 'sheep'];
 
 console.log(animals.push('cows'));
 // expected output: 4
@@ -597,11 +597,11 @@ Array.prototype.reverse ( )
 #### Example
 
 ```
-var array1 = ['one', 'two', 'three'];
+let array1 = ['one', 'two', 'three'];
 console.log('array1: ', array1);
 // expected output: Array ['one', 'two', 'three']
 
-var reversed = array1.reverse(); 
+let reversed = array1.reverse(); 
 console.log('reversed: ', reversed);
 // expected output: Array ['three', 'two', 'one']
 
@@ -628,9 +628,9 @@ Array.prototype.shift ( )
 #### Example
 
 ```
-var array1 = [1, 2, 3];
+let array1 = [1, 2, 3];
 
-var firstElement = array1.shift();
+let firstElement = array1.shift();
 
 console.log(array1);
 // expected output: Array [2, 3]
@@ -656,7 +656,7 @@ Array.prototype.slice (start, end)
 #### Example
 
 ```
-var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+let animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
 console.log(animals.slice(2));
 // expected output: Array ["camel", "duck", "elephant"]
@@ -685,9 +685,9 @@ Array.prototype.some ( callbackfn [ , thisArg ] )
 #### Example
 
 ```
-var array = [1, 2, 3, 4, 5];
+let array = [1, 2, 3, 4, 5];
 
-var even = function(element) {
+let even = function(element) {
   // checks whether an element is even
   return element % 2 === 0;
 };
@@ -713,12 +713,12 @@ Array.prototype.sort (comparefn)
 #### Example
 
 ```
-var months = ['March', 'Jan', 'Feb', 'Dec'];
+let months = ['March', 'Jan', 'Feb', 'Dec'];
 months.sort();
 console.log(months);
 // expected output: Array ["Dec", "Feb", "Jan", "March"]
 
-var array1 = [1, 30, 4, 21, 100000];
+let array1 = [1, 30, 4, 21, 100000];
 array1.sort();
 console.log(array1);
 // expected output: Array [1, 100000, 21, 30, 4]
@@ -741,7 +741,7 @@ Array.prototype.splice (start, deleteCount [ , item1 [ , item2 [ , … ] ] ] )
 #### Example
 
 ```
-var months = ['Jan', 'March', 'April', 'June'];
+let months = ['Jan', 'March', 'April', 'June'];
 months.splice(1, 0, 'Feb');
 // inserts at 1st index position
 console.log(months);
@@ -772,7 +772,7 @@ Array.prototype.toString ( )
 #### Example
 
 ```
-var array1 = [1, 2, 'a', '1a'];
+let array1 = [1, 2, 'a', '1a'];
 
 console.log(array1.toString());
 // expected output: "1,2,a,1a"
@@ -795,7 +795,7 @@ Array.prototype.unshift ( [ item1 [ , item2 [ , … ] ] ] )
 #### Example
 
 ```
-var array1 = [1, 2, 3];
+let array1 = [1, 2, 3];
 
 console.log(array1.unshift(4, 5));
 // expected output: 5

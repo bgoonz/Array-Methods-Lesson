@@ -137,7 +137,7 @@ creates a new array with sub-array elements flattened by specified depth.\
 // example
 [[2], [4], [6], [8]].flatMap(val => val/2) // [ 1, 2, 3, 4 ]
 // syntax
-var new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
+let new_array = arr.flatMap(function callback(currentValue[, index[, array]]) {
     // return element for new_array
 }[, thisArg])
 ```
