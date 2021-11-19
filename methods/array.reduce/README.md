@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/reduce (2).png
+cover: ../../.gitbook/assets/reduce (2).png
 coverY: 0
 ---
 
@@ -17,7 +17,7 @@ The reduce() method applies a function against an accumulator and each value of 
 Array.prototype.reduce ( callbackfn [ , initialValue ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/Reduce)
 
 #### Example
 

@@ -1,11 +1,17 @@
 ---
-cover: ../.gitbook/assets/map.png
+cover: ../../.gitbook/assets/map.png
 coverY: 0
 ---
 
 # 🗺 Array.map()
 
 ### `Array.map()` <a href="d50b" id="d50b"></a>
+
+## .map
+
+no mutation
+
+
 
 ## .map
 
@@ -19,7 +25,29 @@ The map() method creates a new array with the results of calling a provided func
 Array.prototype.map ( callbackfn [ , thisArg ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
+
+#### Example
+
+```
+let array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+```
+
+#### Description
+
+The map() method creates a new array with the results of calling a provided function on every element in this array.
+
+```
+Array.prototype.map ( callbackfn [ , thisArg ] )
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
 
 #### Example
 
@@ -41,7 +69,7 @@ const feededMonkeys = hungryMonkeys.map((m) => m + "🍌");
 console.log(feededMonkeys); // ["🐒🍌", "🦍🍌", "🦧🍌"]
 ```
 
-\_Documentation on \_[_MDN_](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+\_Documentation on \_[_MDN_](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
 
 {% embed url="https://replit.com/@bgoonz/array-methods#index.js" %}
 
