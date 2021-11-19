@@ -1,10 +1,137 @@
 # Native Implementation
 
+## ForEach
+
+
+
+```javascript
+// Some code
+/*******************************************************************************
+Write a function `myForEach` that accepts an array and a callback as arguments.
+The function should call the callback on each element of the array, passing in the
+element, index, and array itself. The function does not need to return any value.
+
+Do not use the built in Array#forEach.
+
+Examples:
+
+myForEach(['a', 'b', 'c'], function (el, i) {
+    console.log(el + ' is at index ' + i);
+}); // prints
+// a is at index 0
+// b is at index 1
+// c is at index 2
+
+let test = [];
+myForEach(['laika', 'belka'], function (el) {
+    test.push(el.toUpperCase());
+});
+console.log(test); // ['LAIKA', 'BELKA']
+*******************************************************************************/
+
+function myForEach(array, cb) {
+    for (let i = 0; i < array.length; i++) {
+        let el = array[i];
+        cb(el, i, array);
+    }
+}
+
+
+module.exports = myForEach;
+```
+
+## Map
+
+
+
+```
+// Some code
+/*******************************************************************************
+Write a function `myMap` that accepts an array and a callback as arguments.
+The function return an array of new elements obtained by calling the callback on
+each element of the array, passing in the element.
+
+Do not use the built in Array#map
+
+// Examples
+
+let result1 = myMap([100, 25, 81, 64], Math.sqrt);
+console.log(result1);   // [ 10, 5, 9, 8 ]
+
+let result2 = myMap(['run', 'Forrest'], function (el) {
+    return el.toUpperCase() + '!';
+});
+console.log(result2);   // [ 'RUN!', 'FORREST!' ]
+*******************************************************************************/
+
+function myMap(array, cb) {
+    let mapped = [];
+    for (let i = 0; i < array.length; i++) {
+        let ele = array[i];
+        mapped.push(cb(ele));
+    }
+    return mapped;
+}
+
+```
+
+
+
+## Reduce
+
+```javascript
+/*******************************************************************************
+Write a function `mySimpleReduce` that accepts an array and a callback as arguments.
+The function should mimic the behavior of the built in Array#reduce, utilizing the
+first element of the array as the default accumulator.
+
+In other words, the function should begin with the first element of the array as
+the accumulator and call the callback for each of the remaining elements in the array,
+passing in the current accumulator and current element into the callback. Upon calling the callback,
+the accumulator should be set to the result of the callback.
+
+Examples:
+
+let result1 = mySimpleReduce([5, 3, 2, 4], function(sum, el) {
+    return sum + el;
+});
+console.log(result1); // 14
+
+let result2 = mySimpleReduce([4, 6, 2], function(product, el) {
+    return product * el;
+});
+console.log(result2); // 48
+
+let result3 = mySimpleReduce([4, 6, 2, 8, 3], function(max, el) {
+    if (el > max) {
+        return el;
+    } else {
+        return max;
+    }
+});
+console.log(result3); // 8
+*******************************************************************************/
+
+function mySimpleReduce(array, cb) {
+    let accumulator = array[0];
+    array.slice(1).forEach(function (el) {
+        accumulator = cb(accumulator, el);
+    });
+    return accumulator;
+}
+```
+
+
+
+
+
+##
+
 ## Array Callback Methods Implemented With For Loops
 
 How to implement array callback methods in JavaScript
 
----
+***
 
 #### Array Callback Methods Implemented With For Loops
 
@@ -12,13 +139,13 @@ How to implement array callback methods in JavaScript
 
 #### Functions are called “First Class Objects” in JavaScript because:
 
-![](https://cdn-images-1.medium.com/max/800/0*WpKqOdTsTPhvapuW)
+![](https://cdn-images-1.medium.com/max/800/0\*WpKqOdTsTPhvapuW)
 
-- <mark style="background-color:purple;">A function is an instance of the Object type</mark>
-- <mark style="background-color:purple;">A function can have properties and has a link back to its constructor method</mark>
-- <mark style="background-color:purple;">You can store the function in a variable</mark>
-- <mark style="background-color:purple;">You can pass the function as a parameter to another function</mark>
-- <mark style="background-color:purple;">You can return the function from a function</mark>
+* <mark style="background-color:purple;">A function is an instance of the Object type</mark>
+* <mark style="background-color:purple;">A function can have properties and has a link back to its constructor method</mark>
+* <mark style="background-color:purple;">You can store the function in a variable</mark>
+* <mark style="background-color:purple;">You can pass the function as a parameter to another function</mark>
+* <mark style="background-color:purple;">You can return the function from a function</mark>
 
 What do you think will be printed in the following:
 

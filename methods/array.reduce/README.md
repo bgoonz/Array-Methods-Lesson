@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/reduce (2).png
+cover: ../../.gitbook/assets/reduce (2).png
 coverY: 0
 ---
 
