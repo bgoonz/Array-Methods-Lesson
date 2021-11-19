@@ -7,6 +7,32 @@ coverY: 0
 
 ### `Array.map()` <a href="d50b" id="d50b"></a>
 
+## .map
+
+no mutation
+
+#### Description
+
+The map() method creates a new array with the results of calling a provided function on every element in this array.
+
+```
+Array.prototype.map ( callbackfn [ , thisArg ] )
+```
+
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/map)
+
+#### Example
+
+```
+let array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+```
+
 Calls a function on each array element and returns the result as new array. Or feeds all hungry monkeys.
 
 ```javascript
