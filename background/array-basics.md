@@ -5,7 +5,7 @@ cover: ../.gitbook/assets/ApplicationFrameHost_ZXTKUFps70.png
 coverY: 0
 ---
 
-# Array Basics
+# 🍼 Array Basics
 
 ![](../.gitbook/assets/image.png)
 
@@ -52,13 +52,13 @@ Let’s start with the most common and the oldest loop, the For Loop. This is wh
 
 You can see in the above that between the brackets there are three required attributes, these are:
 
-- L<mark style="color:blue;">et i = 0; – This creates a new variable that we increment on every loop. “i” represents the Index and we use this variable to access the emoji in the array.</mark>
-- <mark style="color:purple;">i < emojis.length; – This is a conditional statement. This code tells the engine to keep looping as long as “i” is less than the Array size.</mark>
-- <mark style="color:orange;">i++; – This last attribute is shorthand to increment i. It is the same as writing i = i+1. It will add 1 to “i” on every loop.</mark>
+* L<mark style="color:blue;">et i = 0; – This creates a new variable that we increment on every loop. “i” represents the Index and we use this variable to access the emoji in the array.</mark>
+* <mark style="color:purple;">i < emojis.length; – This is a conditional statement. This code tells the engine to keep looping as long as “i” is less than the Array size.</mark>
+* <mark style="color:orange;">i++; – This last attribute is shorthand to increment i. It is the same as writing i = i+1. It will add 1 to “i” on every loop.</mark>
 
 In our example, the above loop will loop through each emoji and then print the emoji to the console:
 
-- c<mark style="color:red;">onsole.log(emojis\[i]) – console.log is how we print to the console. To access each emoji we need to pass the index inside the square brackets.</mark>
+* c<mark style="color:red;">onsole.log(emojis\[i]) – console.log is how we print to the console. To access each emoji we need to pass the index inside the square brackets.</mark>
 
 If you run this code, you will get an output like this:
 
@@ -70,7 +70,7 @@ Sometimes you need to loop until you find an element in the Array. To do this we
 
 #### Break
 
-Break will stop the For loop from running. This is useful when you are trying to find a value in a large Array. For example, say that we were not sure where the skull was in our Array and we wanted to loop until we found it.&#x20;
+Break will stop the For loop from running. This is useful when you are trying to find a value in a large Array. For example, say that we were not sure where the skull was in our Array and we wanted to loop until we found it.
 
 Well, we could write code like this:
 
@@ -84,7 +84,7 @@ What if we wanted to perform an operation on all the values in the Array except 
 
 #### Continue
 
-Continue is like a Break statement but instead of stopping the loop it can skip or “jump over” an item in the array.&#x20;
+Continue is like a Break statement but instead of stopping the loop it can skip or “jump over” an item in the array.
 
 This time we are going to write the code so that when we find a skull, we skip it and we won’t print it to the console:
 
@@ -114,13 +114,13 @@ Now when you run the code this is the output:
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog10.png)
 
-The \`foo\` function is part of the loop! For this reason, you should **never **use For..in in your code.
+The \`foo\` function is part of the loop! For this reason, you should \*\*never \*\*use For..in in your code.
 
 We have discussed the basic For loops—next, we will look at While loops.
 
 ### While Loop
 
-A While Loop will continue to loop while a condition is true.&#x20;
+A While Loop will continue to loop while a condition is true.
 
 For example, the below code will loop while “i” is less than the Array size:
 
@@ -128,12 +128,12 @@ For example, the below code will loop while “i” is less than the Array size:
 
 We are doing the same thing as we were in the For loop:
 
-- i = 0 – Creating an index variable and setting it to 0.
-- i < emojis.length – Looping while i is less than emojis.length
-- console.log(emojis\[i]) – printing each emoji String to the console.
-- i++ – Incrementing the index by 1 on each loop.
+* i = 0 – Creating an index variable and setting it to 0.
+* i < emojis.length – Looping while i is less than emojis.length
+* console.log(emojis\[i]) – printing each emoji String to the console.
+* i++ – Incrementing the index by 1 on each loop.
 
-This code will print all the emojis.&#x20;
+This code will print all the emojis.
 
 Why would you use a While loop over a For loop?
 
@@ -141,7 +141,7 @@ Although they are interchangeable, you will not see While loops very often in Ja
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog12.png)
 
-For each loop, we check the condition (noFox) and if it is ‘true,’ then the loop continues. As soon as ‘noFox’ is set to false the loop will stop. This is like the break statement For loop we used above.&#x20;
+For each loop, we check the condition (noFox) and if it is ‘true,’ then the loop continues. As soon as ‘noFox’ is set to false the loop will stop. This is like the break statement For loop we used above.
 
 What if you wanted to check the conditional after the loop? Well, in that case, you need a Do/While loop.
 
@@ -153,10 +153,10 @@ This loop is almost identical to the while loop, except the condition check is a
 
 The code will run in this flow:
 
-- Set the index to 0
-- Print the first element in the Array using console.log
-- Add 1 to the index
-- Then check is index is still less than the size of the Array
+* Set the index to 0
+* Print the first element in the Array using console.log
+* Add 1 to the index
+* Then check is index is still less than the size of the Array
 
 ### ES5
 
@@ -164,13 +164,13 @@ All the loops we have discussed so far are available in any JavaScript environme
 
 The first changes came in ES5, which means version 5 of JavaScript. The new loops are:
 
-- forEach
-- map
+* forEach
+* map
 
 For both of these are operations, you can call on an Array. For the emojis Array, it would look like this:
 
-- emojis.forEach()
-- emojis.map()
+* emojis.forEach()
+* emojis.map()
 
 Browser support for these [ES5 methods is good,](https://caniuse.com/#feat=es5) so you can use them for your front-end code.
 
@@ -182,16 +182,16 @@ forEach is a function added to the Array type. The function takes a callback fun
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog14.png)
 
-For every value inside the Array, it will run the callback block you pass inside the brackets. This is a nice way to do For loops in ES5.&#x20;
+For every value inside the Array, it will run the callback block you pass inside the brackets. This is a nice way to do For loops in ES5.
 
 If forEach is available, then this is the recommended way to do a loop.
 
 #### Map
 
-You can loop using a Map function the same way as forEach by passing a callback. The map function then calls this callback for every item in the Array.&#x20;
+You can loop using a Map function the same way as forEach by passing a callback. The map function then calls this callback for every item in the Array.
 
 ![](https://3wga6448744j404mpt11pbx4-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/blog15.png)
 
 The difference with Map is that it returns an Array. This function can convert the contents of one Array to another. For example, if we wanted to create a new Array with all the emojis as skulls, we could run this code:
 
-\
+\\
