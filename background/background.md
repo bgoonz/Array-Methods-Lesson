@@ -15,8 +15,8 @@ Let’s see why…
 
 **CREATE A FUNCTION 10 SQUARED**
 
-* Takes no input
-* Returns 10\*10
+- Takes no input
+- Returns 10\*10
 
 **TENSQUARED**
 
@@ -24,7 +24,7 @@ Let’s see why…
 function tenSquared() {
   return 10 * 10;
 }
-tenSquared() // 100
+tenSquared(); // 100
 ```
 
 **AND A 9 SQUARED FUNCTION? 125 SQUARED?\_**
@@ -57,7 +57,7 @@ function copyArrayAndMultiplyBy2(arr) {
   return output;
 }
 const myArray = [1, 2, 3];
-const result = copyArrayAndMultiplyBy2(myArray)
+const result = copyArrayAndMultiplyBy2(myArray);
 ```
 
 What if you want to copy the array and divide it by 2?
@@ -86,10 +86,10 @@ const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
 
 In addition to this, let’s highlight some of the other features of functions:
 
-* They can co-exist with and can be handled like other any Javascript object
-* Assigned to variables and properties of other objects
-* Passed as arguments into functions
-* Returned as values from functions
+- They can co-exist with and can be handled like other any Javascript object
+- Assigned to variables and properties of other objects
+- Passed as arguments into functions
+- Returned as values from functions
 
 Consider this piece of code
 
@@ -107,8 +107,6 @@ function multiplyBy2(input) {
 const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
 ```
 
-
-
 **WHICH IS OUR HIGHER-ORDER FUNCTION ☝?**
 
 The outer function that takes in a function is our higher-order.
@@ -119,7 +117,7 @@ The function we insert is our callback function.
 
 **WHY DO WE NEED TO MASTER THESE TWO CONCEPTS?**
 
-* Callbacks and higher-order functions simplify our code and keep it **DRY**.
-* **Declarative readable code:** Map, filter, reduce - the foremost readable way to write code to work with data.
-* **Pro interview prep:** One of the most popular topics to check in an interview both for mid/senior-level job interviews.
-* **Asynchronous JavaScript:** Callbacks are a central part of **async Javascript**, and are under the hood of **promises**, **async/await**.
+- Callbacks and higher-order functions simplify our code and keep it **DRY**.
+- **Declarative readable code:** Map, filter, reduce - the foremost readable way to write code to work with data.
+- **Pro interview prep:** One of the most popular topics to check in an interview both for mid/senior-level job interviews.
+- **Asynchronous JavaScript:** Callbacks are a central part of **async Javascript**, and are under the hood of **promises**, **async/await**.

@@ -4,7 +4,7 @@
 
 Mutability && Primitive && Reference Examples
 
-***
+---
 
 #### Mutability And Reference VS Privative Types in JavaScript
 
@@ -12,7 +12,7 @@ Mutability && Primitive && Reference Examples
 
 [_**Mutability**_](https://doesitmutate.xyz)
 
-![](https://cdn-images-1.medium.com/max/800/0\*J3mKJ-lWgfS3qi5E.png)
+![](https://cdn-images-1.medium.com/max/800/0*J3mKJ-lWgfS3qi5E.png)
 
 In JavaScript, `String` values are immutable, which means that they cannot be altered once created.
 
@@ -76,7 +76,7 @@ To dereference attributes from an object, use `let {}` syntax.
 
 #### Primitive Data Types in Depth
 
-![](https://cdn-images-1.medium.com/max/2560/1\*mRr-4QeqbjcMUTtQQNOlEw.png)
+![](https://cdn-images-1.medium.com/max/2560/1*mRr-4QeqbjcMUTtQQNOlEw.png)
 
 ### What is a Reference? <a href="what-is-a-reference" id="what-is-a-reference"></a>
 
@@ -88,7 +88,7 @@ Take this line of JavaScript for example: it creates a variable called `word` th
 let word = "hello"
 ```
 
-![the word variable pointing at a box containing the string hello](https://daveceddia.com/images/Word\_Variable.png)
+![the word variable pointing at a box containing the string hello](https://daveceddia.com/images/Word_Variable.png)
 
 Notice how `word` _points to_ the box with the “hello”. There’s a level of indirection here. The variable _is not_ the box. The variable points to the box. Let that sink in while you continue reading.
 
@@ -119,11 +119,11 @@ Initially, only `test` is pointing at the value “hello”.
 
 Once we’re inside the function, though, both `test` _and_ `word` are pointing at the same box.
 
-![Two variables with the same value](https://daveceddia.com/images/Two\_Variables\_Same\_Value.png)
+![Two variables with the same value](https://daveceddia.com/images/Two_Variables_Same_Value.png)
 
 After the assignment (`word = "world"`), the `word` variable points at its new value “world”. But we _haven’t changed `test`_. The `test` variable still points at its old value.
 
-![After reassigning word](https://daveceddia.com/images/After\_Reassignment.png)
+![After reassigning word](https://daveceddia.com/images/After_Reassignment.png)
 
 This is how assignment works in JavaScript. Reassigning a variable only changes that one variable. It doesn’t change any other variables that also pointed at that value. This is true whether the value is a string, boolean, number, object, array, function… every top-level variable works this way.
 
@@ -160,7 +160,7 @@ The other category is the **object** type. This encompasses objects, arrays, fun
 
 The big difference from primitive types is that objects are _mutable_! You can change the value in the box.
 
-![Mutable and immutable JavaScript types](https://daveceddia.com/images/Mutable\_And\_Immutable\_JavaScript\_Types.png)
+![Mutable and immutable JavaScript types](https://daveceddia.com/images/Mutable_And_Immutable_JavaScript_Types.png)
 
 ### Immutable is Predictable <a href="immutable-is-predictable" id="immutable-is-predictable"></a>
 
@@ -188,7 +188,7 @@ let person = {
 let numbers = [4, 8, 12, 37]
 ```
 
-![Variables point to boxes, boxes contain values](https://daveceddia.com/images/Variables\_Point\_To\_Boxes.png)
+![Variables point to boxes, boxes contain values](https://daveceddia.com/images/Variables_Point_To_Boxes.png)
 
 This is true for primitive and object types, and it’s true whether it’s the first assignment or a reassignment.
 
@@ -210,7 +210,7 @@ let book = {
 
 Here’s our object and its values as boxes:
 
-![a Book object with 3 properties](https://daveceddia.com/images/Book\_Object\_With\_3\_Properties.png)
+![a Book object with 3 properties](https://daveceddia.com/images/Book_Object_With_3_Properties.png)
 
 And then let’s imagine we run this code:
 
@@ -267,7 +267,7 @@ reassignFail(test)
 console.log(test) // prints "hello"
 ```
 
-![After reassigning word](https://daveceddia.com/images/After\_Reassignment.png)
+![After reassigning word](https://daveceddia.com/images/After_Reassignment.png)
 
 And anyway, this example used a string, so we couldn’t modify it even if we tried. (because strings are immutable, remember)
 
