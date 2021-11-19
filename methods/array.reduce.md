@@ -5,8 +5,6 @@ coverY: 0
 
 # 💩 Array.reduce()
 
-
-
 ## .reduce
 
 <mark style="color:red;">no mutation</mark>
@@ -19,7 +17,7 @@ The reduce() method applies a function against an accumulator and each value of 
 Array.prototype.reduce ( callbackfn [ , initialValue ] )
 ```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Array/Reduce)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 #### Example
 

@@ -52,13 +52,13 @@ Let’s start with the most common and the oldest loop, the For Loop. This is wh
 
 You can see in the above that between the brackets there are three required attributes, these are:
 
-* L<mark style="color:blue;">et i = 0; – This creates a new variable that we increment on every loop. “i” represents the Index and we use this variable to access the emoji in the array.</mark>
-* <mark style="color:purple;">i < emojis.length; – This is a conditional statement. This code tells the engine to keep looping as long as “i” is less than the Array size.</mark>
-* <mark style="color:orange;">i++; – This last attribute is shorthand to increment i. It is the same as writing i = i+1. It will add 1 to “i” on every loop.</mark>
+- L<mark style="color:blue;">et i = 0; – This creates a new variable that we increment on every loop. “i” represents the Index and we use this variable to access the emoji in the array.</mark>
+- <mark style="color:purple;">i < emojis.length; – This is a conditional statement. This code tells the engine to keep looping as long as “i” is less than the Array size.</mark>
+- <mark style="color:orange;">i++; – This last attribute is shorthand to increment i. It is the same as writing i = i+1. It will add 1 to “i” on every loop.</mark>
 
 In our example, the above loop will loop through each emoji and then print the emoji to the console:
 
-* c<mark style="color:red;">onsole.log(emojis\[i]) – console.log is how we print to the console. To access each emoji we need to pass the index inside the square brackets.</mark>
+- c<mark style="color:red;">onsole.log(emojis\[i]) – console.log is how we print to the console. To access each emoji we need to pass the index inside the square brackets.</mark>
 
 If you run this code, you will get an output like this:
 
@@ -128,10 +128,10 @@ For example, the below code will loop while “i” is less than the Array size:
 
 We are doing the same thing as we were in the For loop:
 
-* i = 0 – Creating an index variable and setting it to 0.
-* i < emojis.length – Looping while i is less than emojis.length
-* console.log(emojis\[i]) – printing each emoji String to the console.
-* i++ – Incrementing the index by 1 on each loop.
+- i = 0 – Creating an index variable and setting it to 0.
+- i < emojis.length – Looping while i is less than emojis.length
+- console.log(emojis\[i]) – printing each emoji String to the console.
+- i++ – Incrementing the index by 1 on each loop.
 
 This code will print all the emojis.
 
@@ -153,10 +153,10 @@ This loop is almost identical to the while loop, except the condition check is a
 
 The code will run in this flow:
 
-* Set the index to 0
-* Print the first element in the Array using console.log
-* Add 1 to the index
-* Then check is index is still less than the size of the Array
+- Set the index to 0
+- Print the first element in the Array using console.log
+- Add 1 to the index
+- Then check is index is still less than the size of the Array
 
 ### ES5
 
@@ -164,13 +164,13 @@ All the loops we have discussed so far are available in any JavaScript environme
 
 The first changes came in ES5, which means version 5 of JavaScript. The new loops are:
 
-* forEach
-* map
+- forEach
+- map
 
 For both of these are operations, you can call on an Array. For the emojis Array, it would look like this:
 
-* emojis.forEach()
-* emojis.map()
+- emojis.forEach()
+- emojis.map()
 
 Browser support for these [ES5 methods is good,](https://caniuse.com/#feat=es5) so you can use them for your front-end code.
 
