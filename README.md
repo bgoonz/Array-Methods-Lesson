@@ -6,6 +6,12 @@ description: 'Github Repo: https://github.com/bgoonz/Array-Methods-Lesson'
 
 # Home
 
+<mark style="color:orange;">map</mark>(\[<mark style="background-color:red;">🌽, 🐮, 🐔</mark>], <mark style="background-color:blue;">cook</mark>) => <mark style="background-color:green;">\[🍿, 🍔, 🍳]</mark>
+
+<mark style="color:orange;">filter</mark>(\[<mark style="background-color:red;">🍿, 🍔, 🍳</mark>], <mark style="background-color:blue;">isVegetarian</mark>) => <mark style="background-color:green;">\[🍿, 🍳]</mark>
+
+<mark style="color:orange;">reduce</mark>(\[<mark style="background-color:red;">🍿, 🍳</mark>], <mark style="background-color:blue;">eat</mark>) => <mark style="background-color:green;">💩</mark>
+
 ### <mark style="color:red;background-color:blue;">DOWNLOAD JS FILES FOR LESSON:</mark>
 
 {% file src=".gitbook/assets/array-methods (1).zip" %}
