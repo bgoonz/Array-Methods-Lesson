@@ -90,3 +90,263 @@ reduce()    // "Reduces" the array into single value (accumulator)
 slice()     // Returns desired elements in a new array
 concat()    // Append one or more arrays with given array
 ```
+
+
+
+#### Cheat sheet: Arrays
+
+JavaScript Arrays are a very flexible data structure and used as lists, stacks, queues, tuples (e.g. pairs), etc. Some
+
+**Using Arrays**
+
+Creating Arrays, reading and writing elements:
+
+```js
+const arr = ['a', 'b', 'c']; // Array literal
+assert.deepEqual(
+  arr,
+  [
+    'a',
+    'b',
+    'c', // trailing commas are ignored
+  ]
+);
+assert.equal(
+  arr.length, 3 // number of elements
+);
+assert.equal(
+  arr[0], 'a' // read (negative indices don’t work)
+);
+assert.equal(
+  arr.at(-1), 'c' // read (negative indices work)
+);
+arr[0] = 'x'; // write
+assert.deepEqual(
+  arr, ['x', 'b', 'c']
+);
+```
+
+The lengths of Arrays, adding elements:
+
+```js
+const arr = ['a'];
+assert.equal(
+  arr.length, 1 // number of elements
+);
+arr.push('b'); // add an element (preferred)
+assert.deepEqual(
+  arr, ['a', 'b']
+);
+arr[arr.length] = 'c'; // add an element (alternative)
+assert.deepEqual(
+  arr, ['a', 'b', 'c']
+);
+arr.length = 1; // remove elements
+assert.deepEqual(
+  arr, ['a']
+);
+```
+
+Concatenating Arrays via spreading (`...`):
+
+```js
+const arr1 = ['a', 'b'];
+const arr2 = ['c'];
+const arr3 = ['d', 'e', 'f'];
+assert.deepEqual(
+  [...arr1, ...arr2, ...arr3, 'g'],
+  ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+);
+```
+
+Clearing Arrays (removing all elements):
+
+```js
+// Affects everyone referring to the Array
+const arr1 = ['a', 'b', 'c'];
+arr1.length = 0;
+assert.deepEqual(
+  arr1, []
+);
+
+// Does not affect others referring to the Array
+let arr2 = ['a', 'b', 'c'];
+arr2 = [];
+assert.deepEqual(
+  arr2, []
+);
+```
+
+Looping over elements:
+
+```js
+const arr = ['a', 'b', 'c'];
+for (const value of arr) {
+  console.log(value);
+}
+
+// Output:
+// 'a'
+// 'b'
+// 'c'
+```
+
+Looping over key-element pairs:
+
+```js
+const arr = ['a', 'b', 'c'];
+for (const [index, value] of arr.entries()) {
+  console.log(index, value);
+}
+
+// Output:
+// 0, 'a'
+// 1, 'b'
+// 2, 'c'
+```
+
+Creating and filling Arrays when we can’t use Array literals (e.g. because we don’t know their lengths in advance or they are too large):
+
+```js
+const four = 4;
+
+// Empty Array that we’ll fill later
+assert.deepEqual(
+  new Array(four),
+  [ , , , ,] // four holes; last comma is ignored
+);
+
+// An Array filled with a primitive value
+assert.deepEqual(
+  new Array(four).fill(0),
+  [0, 0, 0, 0]
+);
+
+// An Array filled with objects
+// Why not .fill()? We’d get single object, shared multiple times.
+assert.deepEqual(
+  Array.from({length: four}, () => ({})),
+  [{}, {}, {}, {}]
+);
+
+// A range of integers
+assert.deepEqual(
+  Array.from({length: four}, (_, i) => i),
+  [0, 1, 2, 3]
+);
+```
+
+**Array methods**
+
+Deriving a new Array from an existing Array:
+
+```
+> ['■','●','▲'].slice(1, 3)
+['●','▲']
+> ['■','●','■'].filter(x => x==='■') 
+['■','■']
+
+> ['▲','●'].map(x => x+x)
+['▲▲','●●']
+> ['▲','●'].flatMap(x => [x,x])
+['▲','▲','●','●']
+```
+
+Removing an Array element at a given index:
+
+```js
+const arr = ['■','●','▲'];
+
+assert.deepEqual(
+  arr.filter((_, index) => index !== 1),
+  ['■','▲']
+);
+assert.deepEqual(
+  arr, ['■','●','▲'] // .filter() is non-destructive
+);
+
+arr.splice(1, 1); // start at 1, delete 1 element
+assert.deepEqual(
+  arr, ['■','▲'] // .splice() is destructive
+);
+```
+
+Computing a summary of an Array:
+
+```
+> ['■','●','▲'].some(x => x==='●')
+true
+> ['■','●','▲'].every(x => x==='●')
+false
+
+> ['■','●','▲'].join('-')
+'■-●-▲'
+
+> ['■','●'].reduce((result,x) => result+x, '▲')
+'▲■●'
+> ['■','●'].reduceRight((result,x) => result+x, '▲')
+'▲●■'
+```
+
+Changing all of an Array (the input Array is modified and returned):
+
+```
+> ['■','●','▲'].fill('●')
+['●','●','●']
+> ['■','●','▲'].reverse()
+['▲','●','■']
+> ['■','●','■'].sort()
+['■','■','●']
+```
+
+Finding Array elements:
+
+```
+> ['■','●','■'].includes('■')
+true
+> ['■','●','■'].indexOf('■')
+0
+> ['■','●','■'].lastIndexOf('■')
+2
+> ['■','●','■'].find(x => x==='■')
+'■'
+> ['■','●','■'].findIndex(x => x==='■')
+0
+```
+
+Listing elements (`Array.from()` is needed because the methods return iterables, not Arrays):
+
+```
+> Array.from(['■','●','▲'].keys())
+[0,1,2]
+> Array.from(['■','●','▲'].entries())
+[[0,'■'],[1,'●'],[2,'▲']]
+```
+
+Adding or removing an element at either end of an Array:
+
+```js
+const arr1 = ['■','●'];
+arr1.push('▲');
+assert.deepEqual(
+  arr1, ['■','●','▲']
+);
+
+const arr2 = ['■','●','▲'];
+arr2.pop();
+assert.deepEqual(
+  arr2, ['■','●']
+);
+
+const arr3 = ['■','●'];
+arr3.unshift('▲');
+assert.deepEqual(
+  arr3, ['▲','■','●']
+);
+
+const arr4 = ['▲','■','●'];
+arr4.shift();
+assert.deepEqual(
+  arr4, ['■','●']
+);
+```

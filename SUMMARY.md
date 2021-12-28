@@ -32,7 +32,7 @@
 ## 📖 Resources
 
 * [📰 Cheat Sheet](resources/cheat-sheet/README.md)
-  * [👷♀ 👷♀ 👷♀ 👷♀ Examples](resources/cheat-sheet/examples.md)
+  * [👷♀ 👷♀ 👷♀ 👷♀ 👷♀ Examples](resources/cheat-sheet/examples.md)
 * [🤓 Other Array Methods](resources/other-array-methods.md)
 * [Examples](resources/examples/README.md)
   * [Refactor](resources/examples/refactor.md)
